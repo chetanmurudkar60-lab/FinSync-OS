@@ -123,9 +123,34 @@ AI Categorization Engine
 * Investment Insights
 
 ---
+## Installation
+
+### Backend Setup
+1. cd backend
+2. npm install
+3. Create .env file (copy from .env.example)
+4. Add your MongoDB URI, API keys
+5. npm start
+
+### Frontend Setup
+1. cd frontend
+2. npm install
+3. npx expo start
+
+## Test Account
+Email: demo@test.com
+Password: demo123
+
+## API Endpoints
+POST /api/auth/register
+POST /api/auth/login
+POST /api/expenses
+GET /api/analytics
+... (list more)
 
 ## Author
 
 Chetan Murudkar
 
 Final Year Project – FinSync OS
+
